@@ -1,5 +1,4 @@
 # 3-Layer-Deep-Neural-Network-for-Non-Linear-Regression
-# 3-Layer Deep Neural Network for Non-Linear Regression
 
 ## Overview
 This repository contains multiple implementations of a **3-layer deep neural network** for **non-linear regression** using **NumPy, PyTorch, and TensorFlow**. Each implementation explores different approaches, ranging from scratch implementations to high-level API usage.
@@ -10,24 +9,6 @@ This repository contains multiple implementations of a **3-layer deep neural net
 - **Synthetic Data Generation & 4D Plotting**: Data is generated and visualized in **4D**.
 - **Full GitHub Documentation**: Includes **Colab links**, code explanations, and a **video walkthrough** for each implementation.
 - **Detailed Video Walkthroughs**: Executed **Colab notebooks** are documented with step-by-step **code explanations**.
-
----
-
-## 📂 Repository Structure
-
-```
-📂 nn_non_linear_regression
- ├── colab_numpy_scratch.ipynb          # NumPy-only neural network (manual backprop)
- ├── colab_pytorch_scratch.ipynb        # PyTorch implementation without built-in layers
- ├── colab_pytorch_class.ipynb          # PyTorch implementation using class-based modules
- ├── colab_pytorch_lightning.ipynb      # PyTorch implementation using PyTorch Lightning
- ├── colab_tf_lowlevel.ipynb            # TensorFlow implementation without high-level APIs
- ├── colab_tf_builtin_layers.ipynb      # TensorFlow implementation using built-in layers
- ├── colab_tf_functional_api.ipynb      # TensorFlow implementation using Functional API
- ├── colab_tf_highlevel_api.ipynb       # TensorFlow implementation using high-level API
- ├── data_generation.py                  # Code for synthetic data generation
- ├── README.md                           # Documentation for the repository
-```
 
 ---
 
