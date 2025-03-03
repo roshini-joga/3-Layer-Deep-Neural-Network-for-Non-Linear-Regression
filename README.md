@@ -108,30 +108,6 @@ output = tf.einsum('ij,jk->ik', X, W)
 - **File:** `data_generation.py`
 
 ---
-
-## 🔥 How to Run the Code
-
-### Running in Google Colab
-
-1. Open any of the `.ipynb` notebooks in **Google Colab**.
-2. Run the cells step by step.
-3. Observe the **loss progression**, **training epochs**, and **final output**.
-
-### Running Locally
-
-1. Clone the repository:
-   ```bash
-   git clone <repo-link>
-   cd nn_non_linear_regression
-   ```
-2. Install dependencies:
-   ```bash
-   pip install torch torchvision torchaudio pytorch-lightning tensorflow numpy matplotlib
-   ```
-3. Run the notebooks in Jupyter Notebook or VS Code.
-
----
-
 ## 📽️ Video Walkthroughs
 Each implementation has an accompanying **video walkthrough**, explaining the code structure and execution.
 - **[Watch NumPy Scratch Implementation Walkthrough](#)**
