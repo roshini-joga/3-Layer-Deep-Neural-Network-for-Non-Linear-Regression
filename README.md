@@ -40,21 +40,19 @@ This dataset is used across all implementations for training and evaluation.
 ### 2️⃣ PyTorch Implementations
 
 #### 🔹 PyTorch Without Built-in Layers
-**File:** [colab_pytorch_scratch.ipynb](./colab_pytorch_scratch.ipynb)
+**File:** [colab_pytorch.ipynb](https://colab.research.google.com/drive/15whwyUr2I2r4QZ5JU02g0sBML5o3l9Nj)
 
 - **Implements the neural network manually** (no `nn.Module`, no built-in layers).
 - Uses **manual backpropagation**.
 - **Weight updates are handled manually** using gradients.
 
 #### 🔹 PyTorch Class-Based Model
-**File:** [colab_pytorch_class.ipynb](./colab_pytorch_class.ipynb)
 
 - Uses `nn.Module` and `nn.Linear` layers.
 - Implements **forward propagation** and **automatic backpropagation**.
 - Uses PyTorch's built-in **Adam optimizer**.
 
 #### 🔹 PyTorch Lightning Implementation
-**File:** [colab_pytorch_lightning.ipynb](./colab_pytorch_lightning.ipynb)
 
 - Uses **PyTorch Lightning** to manage training.
 - Implements the model as a **LightningModule**.
@@ -65,25 +63,22 @@ This dataset is used across all implementations for training and evaluation.
 ### 3️⃣ TensorFlow Implementations
 
 #### 🔹 TensorFlow Without High-Level APIs
-**File:** [colab_tf_lowlevel.ipynb](./colab_tf_lowlevel.ipynb)
+**File:** [colab_tf_lowlevel.ipynb](https://colab.research.google.com/github/roshini-joga/3-Layer-Deep-Neural-Network-for-Non-Linear-Regression/blob/master/Tensorflow.ipynb)
 
 - Implements a **3-layer neural network manually** without using high-level TensorFlow functions.
 - Uses **TensorFlow’s lower-level tensor operations**.
 
 #### 🔹 TensorFlow Built-in Layers
-**File:** [colab_tf_builtin_layers.ipynb](./colab_tf_builtin_layers.ipynb)
 
 - Uses **built-in layers** from TensorFlow (`tf.keras.layers.Dense`).
 - Implements **automatic backpropagation and weight updates**.
 
 #### 🔹 TensorFlow Functional API
-**File:** [colab_tf_functional_api.ipynb](./colab_tf_functional_api.ipynb)
 
 - Implements the model using **TensorFlow’s Functional API**.
 - More flexible than sequential models, allowing complex architectures.
 
 #### 🔹 TensorFlow High-Level API
-**File:** [colab_tf_highlevel_api.ipynb](./colab_tf_highlevel_api.ipynb)
 
 - Uses **high-level APIs** such as `tf.keras.Sequential`.
 - Simplifies model definition and training.
