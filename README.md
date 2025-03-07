@@ -28,7 +28,7 @@ This dataset is used across all implementations for training and evaluation.
 
 ### 1️⃣ NumPy-Only Implementation (Manual Backpropagation)
 
-**File:** [colab_numpy_scratch.ipynb](./https://colab.research.google.com/github/roshini-joga/3-Layer-Deep-Neural-Network-for-Non-Linear-Regression/blob/master/NumPy(3_layer).ipynb)
+**File:** [colab_numpy_scratch.ipynb](https://colab.research.google.com/github/roshini-joga/3-Layer-Deep-Neural-Network-for-Non-Linear-Regression/blob/master/NumPy(3_layer).ipynb)
 
 🔹 Implements a **3-layer deep neural network from scratch** using **NumPy**.
 🔹 Uses **non-linear activation functions**.
