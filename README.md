@@ -63,7 +63,7 @@ This dataset is used across all implementations for training and evaluation.
 ### 3️⃣ TensorFlow Implementations
 
 #### 🔹 TensorFlow Without High-Level APIs
-**File:** [colab_tf_lowlevel.ipynb](https://colab.research.google.com/github/roshini-joga/3-Layer-Deep-Neural-Network-for-Non-Linear-Regression/blob/master/Tensorflow.ipynb)
+**File:** [colab tensorflow.ipynb](https://colab.research.google.com/github/roshini-joga/3-Layer-Deep-Neural-Network-for-Non-Linear-Regression/blob/master/Tensorflow.ipynb)
 
 - Implements a **3-layer neural network manually** without using high-level TensorFlow functions.
 - Uses **TensorFlow’s lower-level tensor operations**.
@@ -107,11 +107,7 @@ output = tf.einsum('ij,jk->ik', X, W)
 Each implementation has an accompanying **video walkthrough**, explaining the code structure and execution.
 - **[Watch NumPy Scratch Implementation Walkthrough](#)**
 - **[Watch PyTorch Scratch Implementation Walkthrough](#)**
-- **[Watch PyTorch Class-Based Walkthrough](#)**
-- **[Watch PyTorch Lightning Walkthrough](#)**
 - **[Watch TensorFlow Implementations Walkthrough](#)**
-
-(The links will be updated once the videos are uploaded.)
 
 ---
 
@@ -120,18 +116,6 @@ Each implementation has an accompanying **video walkthrough**, explaining the co
 ✅ Include functional API and high-level API versions.
 ✅ Upload Colab links and execution results.
 ✅ Add additional experiments and insights.
-
----
-
-## 🔗 References
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
-- [PyTorch Lightning](https://pytorch-lightning.readthedocs.io/en/stable/)
-- [TensorFlow Documentation](https://www.tensorflow.org/api_docs)
-- [Google Colab](https://colab.research.google.com/)
-
 ---
 
 **Author:** Roshini Joga 🚀
-
-For any questions, feel free to reach out! 🎯
-
