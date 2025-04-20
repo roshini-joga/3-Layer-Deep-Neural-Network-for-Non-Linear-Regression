@@ -105,17 +105,8 @@ output = tf.einsum('ij,jk->ik', X, W)
 ---
 ## 📽️ Video Walkthroughs
 Each implementation has an accompanying **video walkthrough**, explaining the code structure and execution.
-- **[Watch NumPy Scratch Implementation Walkthrough](#)**
-- **[Watch PyTorch Scratch Implementation Walkthrough](#)**
-- **[Watch TensorFlow Implementations Walkthrough](#)**
+- **[Watch NumPy Scratch Implementation Walkthrough](https://youtu.be/tAZIyDYbRQI)**
+- **[Watch PyTorch Scratch Implementation Walkthrough](https://youtu.be/u_N2Iw3Xl2Q)**
+- **[Watch TensorFlow Implementations Walkthrough](https://youtu.be/nw649qDULzM)**
 
 ---
-
-## 📝 To-Do
-✅ Implement TensorFlow versions using Einsum.
-✅ Include functional API and high-level API versions.
-✅ Upload Colab links and execution results.
-✅ Add additional experiments and insights.
----
-
-**Author:** Roshini Joga 🚀
