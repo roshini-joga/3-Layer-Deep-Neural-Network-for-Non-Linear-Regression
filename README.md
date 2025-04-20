@@ -10,22 +10,6 @@ This repository contains multiple implementations of a **3-layer deep neural net
 - **Full GitHub Documentation**: Includes **Colab links**, code explanations, and a **video walkthrough** for each implementation.
 - **Detailed Video Walkthroughs**: Executed **Colab notebooks** are documented with step-by-step **code explanations**.
 
----
-
-## 📊 Data Generation
-
-A **synthetic dataset** is generated using the following **3-variable-based non-linear equation**:
-
-\[ y = \sin(x_1) + \cos(x_2) + x_3^2 \]
-
-where **x₁, x₂, and x₃** are randomly sampled values between -1 and 1.
-
-This dataset is used across all implementations for training and evaluation.
-
----
-
-## 🚀 Implementations
-
 ### 1️⃣ NumPy-Only Implementation (Manual Backpropagation)
 
 **File:** [colab_numpy_scratch.ipynb](https://colab.research.google.com/github/roshini-joga/3-Layer-Deep-Neural-Network-for-Non-Linear-Regression/blob/master/NumPy(3_layer).ipynb)
