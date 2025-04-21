@@ -72,19 +72,6 @@ This repository contains multiple implementations of a **3-layer deep neural net
 ### 4️⃣ TensorFlow Einsum Requirement
 All TensorFlow implementations replace **matrix multiplication** with **`einsum`** to optimize computations.
 
-Example:
-```python
-# Instead of: output = tf.matmul(X, W)
-output = tf.einsum('ij,jk->ik', X, W)
-```
-
----
-
-### 5️⃣ Data Visualization (4D Plot)
-
-- The **synthetic dataset** is **visualized using a 4D plot**.
-- This helps analyze how data is distributed across multiple dimensions.
-- **File:** `data_generation.py`
 
 ---
 ## 📽️ Video Walkthroughs
